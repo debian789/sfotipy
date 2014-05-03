@@ -1,0 +1,104 @@
+[{
+"name":"lista Nueva",
+"by":"Angel",
+"followers": "1",
+"descripcion":"musica nueva !!! ",
+"img":"Selección_002.png",
+"songs": [
+    {
+    "name": "Desvaneciente",
+    "artist":"Wilmar Peñuela",
+    "album":"Desconocido",
+    "length": "3:02",
+    "src":"desvaneciente.mp3"
+    },
+    {
+    "name": "No se si bien o mal",
+    "artist":"Wilmar Peñuela",
+    "album":"Desconocido",
+    "length": "3:27",
+    "src":"no_se_si_bien_o_mal.mp3"
+    },
+    {
+    "name": "Hunter",
+    "artist":"franz sinatra",
+    "album":"100 buena",
+    "length": "4:00",
+    "src":"cancion.mp3"
+
+    },
+    {
+    "name": "Gush",
+    "artist":"franz sinatra",
+    "album":"jajajrs",
+    "length": "3:54",
+    "src":"cancion.mp3"
+    },
+    {
+    "name": "Happy",
+    "artist":"franz sinatra",
+    "album":"100 years",
+    "length": "3:53",
+    "src":"cancion.mp3"
+    },
+    {
+    "name": "Come Get it Bae",
+    "artist":"franz sinatra",
+    "album":"ni modos",
+    "length": "3:21",
+    "src":"cancion.mp3"
+    }
+]
+},
+{
+"name":"New PlayList",
+"by":"Brand",
+"followers": "23423",
+"descripcion":"Por que no ",
+"img":"wilmar.jpg",
+"songs": [
+{
+"name": "Fight fire with fire",
+"artist":"franz sinatra",
+"album":"que paso  years",
+"length": "4:45",
+"src":"cancion.mp3"
+},
+{
+"name": "Ride the lightning",
+"artist":"franz sinatra",
+"album":"por que  years",
+"length": "6:36",
+"src":"cancion.mp3"
+},
+{
+"name": "For whom the bell tolls",
+"artist":"franz sinatra",
+"album":"es la vida  years",
+"length": "5:09",
+"src":"cancion.mp3"
+},
+{
+"name": "Fade to Black",
+"artist":"franz sinatra",
+"album":"jajjaja years",
+"length": "6:57",
+"src":"cancion.mp3"
+},
+{
+"name": "Creeping Death",
+"artist":"franz sinatra",
+"album":"que suerte years",
+"length": "6:36",
+"src":"cancion.mp3"
+},
+{
+"name": "The Call of Ktulu",
+"artist":"franz sinatra",
+"album":"ummmm years",
+"length": "8:53",
+"src":"cancion.mp3"
+}
+]
+
+}]

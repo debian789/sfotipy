@@ -2,7 +2,8 @@ var Sfotipy = {
   Models: {},
   Views: {},
   Collections: {},
-  Router: {}
+  Router: {},
+  opcion:{"album":"album","playList":"playList"},
 };
 
 window.Sfotipy = Sfotipy;

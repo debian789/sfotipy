@@ -4,7 +4,7 @@ Sfotipy.Views.Song = Backbone.View.extend({
   className: 'item border-bottom',
 
   events: {
-    'click .action.icon-add': 'select',
+    'click .selecMusic': 'select',
     'click .action.icon-love': 'love',
     'click .action.icon-share': 'share'
   },
@@ -28,6 +28,7 @@ Sfotipy.Views.Song = Backbone.View.extend({
   },
 
   love: function () {
+    debugger;
 
   },
 

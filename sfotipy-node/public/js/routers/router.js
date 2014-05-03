@@ -90,12 +90,14 @@ fetchData: function (url,opcion) {
   addSongList:function(dat){
     var self = this;
     _.each(dat.songs,function(data){
+      //debugger;
       self.songs.add(new Sfotipy.Models.Song({
         album_cover: dat.img,
         album_name: data.name,
         author: data.author,
         name: data.name,
-        length: data.length
+        length: data.length,
+        src:data.src
       }));
     });
   },

@@ -6,7 +6,7 @@ Sfotipy.Views.Song = Backbone.View.extend({
   events: {
     'click .selecMusic': 'select',
     'click .action.icon-love': 'love',
-    'click .action.icon-share': 'share'
+    'click .action.icon-share': 'share'  
   },
 
   template: Handlebars.compile($("#song-template").html()),

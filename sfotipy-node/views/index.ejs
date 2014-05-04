@@ -6,6 +6,8 @@
   <title>Sfotipy</title>
   <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/foundation.css">
+
 </head>
 <body>
   <header class="header relative border-bottom">
@@ -16,9 +18,9 @@
         </figure>
         <div class="user right">
           <figure class="avatar round left">
-            <img src="img/avatares/leonidas.jpg" alt="@LeonidasEsteban" width="38" height="38">
+            <img src="img/avatares/debian789.png" alt="@debian789" width="38" height="38">
           </figure>
-          <span class="left username">@LeonidasEsteban</span>
+          <span class="left username">@debian789</span>
         </div>
         <div class="search right">
           <form action="" class="relative">
@@ -54,6 +56,40 @@
     </div>
   </header>
 
+
+
+
+ <!--
+
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <a class="left-off-canvas-toggle" href="#" >Menu</a>
+ 
+    <aside class="right-off-canvas-menu">
+        
+        <ul>
+          <li><a href="#">Item 1</a></li>
+        ...
+        </ul>
+    </aside>
+
+ 
+    <p>
+
+      Set in the year 0 F.E. ("Foundation Era"), The Psychohistorians opens on Trantor, the capital of the 12,000-
+    </p>
+
+ 
+  <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
+-->
+
+
+
+
+
   <section class="playing small medium large">
     <div class="music"></div>
     <div class="playlist ">
@@ -61,6 +97,12 @@
       <ul class="list"></ul>
     </div>
   </section>
+
+
+
+
+
+
 
   <section id="playList" class="container"> </section>
 
@@ -102,7 +144,8 @@
         </audio>
         <div class="play center-text padding-tb">
           <a href="" class="action gray icon-prev"></a>
-          <a href="" class="action gray icon-play play"></a>
+          <a href="" class="action gray icon-play playSound"></a>
+          <a href="" class="action gray icon-stop pauseSound"></a>
           <a href="" class="action gray icon-next"></a>
           <a href="" class="action gray icon-random"></a>
           <a href="" class="action gray icon-vol"></a>
@@ -186,5 +229,9 @@
 
   <script type="text/javascript" src="js/routers/router.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="lib/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+  </script>
 </body>
 </html>

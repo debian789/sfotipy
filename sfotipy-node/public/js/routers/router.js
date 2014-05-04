@@ -22,10 +22,13 @@ Sfotipy.Router = Backbone.Router.extend({
   },
 
   index: function () {
+    this.albumlist.$el.show();
     this.fetchData("album",Sfotipy.opcion.album);
   },
 
   setPlayLists:function(nameList){
+    this.albumlist.$el.hide();
+    //debugger;
     if(nameList){
       if (Object.keys(this.jsonData).length === 0) {
         var self = this;

@@ -1,7 +1,8 @@
 Sfotipy.Views.Player = Backbone.View.extend({
   el: $(".music"),
   events:{
-  	  'click .play':'play'
+  	  'click .playSound':'play',
+      'click .pauseSound':'pause'
   },
 
   template: Handlebars.compile($("#player-template").html()),
@@ -20,9 +21,19 @@ Sfotipy.Views.Player = Backbone.View.extend({
     e.stopImmediatePropagation();
     e.preventDefault();
     var sound = document.getElementById("audioPlay");
-    sound.play()
-    //debugger;
+    this.$el.find('.playSound').hide();
+    this.$el.find('.pauseSound').show();
 
+    sound.play();
+  },
+  pause:function(e){
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    var sound = document.getElementById("audioPlay");
+    this.$el.find('.pauseSound').hide();
+    this.$el.find('.playSound').show();
+    sound.pause();
+    
 
   }
 });
